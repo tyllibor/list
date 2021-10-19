@@ -15,12 +15,18 @@ body {
 }
 
 html {
+  background-attachment: fixed;
+  background-color: color.$bg;
+  background-image: linear-gradient(to bottom, color.$bg, color.$gradient);
   color: color.$text;
   font-family: 'Open Sans', sans-serif;
   font-size: 87.5%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  position: relative;
 }
 
-// If you need to style the #app element
-// :global(#app) {}
+body {
+  min-height: 100%;
+}
