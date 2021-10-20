@@ -9,8 +9,8 @@
       @input="$emit('update:value', $event.target.value)"
       @keydown.esc="onClear"
       @keydown.enter="onAdd" />
-    <div :class="$style.buttons">
-      <ul v-if="hasValue" :class="$style.buttons_in">
+    <div v-if="hasValue" :class="$style.buttons">
+      <ul :class="$style.buttons_in">
         <li>
           <button
             :class="[$style.button, $style.clear]"
