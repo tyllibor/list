@@ -119,6 +119,10 @@ $-button: 46px;
   padding-left: 20px;
   padding-right: 20px;
 
+  &::-webkit-search-cancel-button {
+    display: none;
+  }
+
   &::placeholder {
     color: color.$disabled;
     opacity: 1;
