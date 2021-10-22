@@ -31,13 +31,12 @@
 </template>
 
 <script lang="ts">
-import { computed, defineComponent } from 'vue';
-import IconTrash from './IconTrash.vue';
-import {} from 'date-fns';
-import { useCurrentTime } from 'hooks/currentTime';
 import { formatDistance } from 'date-fns/esm';
-import IconCheck from './IconCheck.vue';
+import { useCurrentTime } from 'hooks/currentTime';
 import { isNumber } from 'lodash';
+import { computed, defineComponent } from 'vue';
+import IconCheck from './IconCheck.vue';
+import IconTrash from './IconTrash.vue';
 
 export default defineComponent({
   name: 'ListItem',

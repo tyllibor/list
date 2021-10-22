@@ -36,10 +36,10 @@
 </template>
 
 <script lang="ts">
+import { isString } from 'lodash';
 import { computed, defineComponent, ref } from 'vue';
 import IconAdd from './IconAdd.vue';
 import IconCancel from './IconCancel.vue';
-import { isString } from 'lodash';
 
 export default defineComponent({
   name: 'SearchBar',
