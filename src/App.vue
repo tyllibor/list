@@ -1,11 +1,7 @@
 <template>
   <div>
     <!-- Html -->
-    <h1>Test</h1>
-    <h2>{{ title }}</h2>
-    <p>{{ total }}</p>
-    <button @click="total += 1">Navyseni</button>
-  </div>
+   </div>
 </template>
 
 <script lang="ts">
