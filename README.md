@@ -35,6 +35,11 @@ npm run serve
   api (setup) and scss module for its `<style>` part
 - All colors should be defined in `_color.scss` file
 
+## TODO LT
+
+- vazba interface, component, vue (export, import)
+- metody na pridani atd. Do App.vue
+
 ## Libraries
 
 The following libraries are available, you can import any utility you'll need.
